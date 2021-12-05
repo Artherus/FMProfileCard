@@ -1,0 +1,171 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  overflow: hidden;
+}
+
+h1 {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+}
+
+.age {
+  color: hsl(0, 0%, 59%);
+  font-weight: normal;
+}
+
+.bottom-container {
+  position: relative;
+  left: 30rem;
+  top: 7rem;
+  background-color: #fff;
+  width: 19.45em;
+  height: 16rem;
+  border-radius: 0 0 10px 10px;
+}
+
+.top-pattern {
+  position: absolute;
+  top: -30em;
+  left: -20em;
+}
+
+.btm-pattern {
+  position: absolute;
+  bottom: -40em;
+  right: -10em;
+}
+
+.pattern, .victor {
+  position: relative;
+  z-index: 1;
+}
+
+.pattern {
+  top: 8rem;
+  left: 30rem;
+  border-radius: 10px 10px 0 0;
+}
+
+.victor {
+  border-radius: 100%;
+  border: 3px solid #fff;
+  top: 11rem;
+  left: 16rem;
+}
+
+.section1 {
+  padding-left: 7.5rem;
+  padding-top: 4rem;
+  border-bottom: 0.2px solid hsl(227, 10%, 46%);
+}
+
+.section1 p {
+  padding-left: 1.7rem;
+  margin-top: 5px;
+}
+
+.section1 h1 {
+  margin-bottom: 0px;
+}
+
+.section2 {
+  position: relative;
+  text-align: center;
+}
+
+.section2 h1 {
+  margin-bottom: 0px;
+}
+
+.section2 p {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.c1 {
+  right: 6rem;
+  top: 0.5rem;
+}
+
+.c2 {
+  bottom: 3.5rem;
+}
+
+.c3 {
+  left: 6rem;
+  bottom: 7.6rem;
+}
+
+@media (max-width: 375px) {
+  .pattern {
+    left: 20rem;
+    top: 18rem;
+    width: 60rem;
+    height: 30rem;
+    border-radius: 50px 50px 0 0;
+  }
+
+  .top-pattern {
+    left: -10rem;
+  }
+
+  .btm-pattern {
+    bottom: -100rem;
+    right: -90rem;
+  }
+
+  .victor {
+    left: 41rem;
+    top: 10rem;
+    width: 17rem;
+    height: 17rem;
+  }
+
+  .bottom-container {
+    top: 0.1rem;
+    left: 20rem;
+    width: 60rem;
+    height: 45rem;
+    border-radius: 0 0 50px 50px;
+  }
+
+  .section1 {
+    padding-left: 18rem;
+    padding-top: 9rem;
+  }
+
+  .section1 p {
+    padding-left: 6.5rem;
+  }
+
+  .section2 p, p {
+    font-size: 3rem;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  .c1 {
+    right: 15rem;
+  }
+
+  .c2 {
+    bottom: 0;
+    top: -12rem;
+    left: 1rem;
+  }
+
+  .c3 {
+    top: -24.5rem;
+    bottom: 0;
+    right: 0;
+    left: 15rem;
+  }
+}
